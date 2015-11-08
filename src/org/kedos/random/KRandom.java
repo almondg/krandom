@@ -35,9 +35,9 @@ public class KRandom {
     // Define if should use @Random or @SecureRandom.
     private static boolean USE_SECURE = false;
     // Alphabetic letters.
-    private static char[] alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".toCharArray();
+    private static char[] ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".toCharArray();
     // Numeric chars.
-    private static char[] numeric = "0123456789".toCharArray();
+    private static char[] NUMERIC = "0123456789".toCharArray();
 
 
     /* --- CONFIG METHODS --- */
@@ -441,7 +441,7 @@ public class KRandom {
         StringBuilder sb = new StringBuilder(len);
 
         for (int i = 0; i < len; i++) {
-            sb.append(alphabet[nextInt(0, alphabet.length)]);
+            sb.append(ALPHABET[nextInt(0, ALPHABET.length)]);
         }
 
         return sb.toString();
@@ -457,7 +457,7 @@ public class KRandom {
         StringBuilder sb = new StringBuilder(len);
 
         for (int i = 0; i < len; i++) {
-            sb.append(numeric[nextInt(0, numeric.length)]);
+            sb.append(NUMERIC[nextInt(0, NUMERIC.length)]);
         }
 
         return sb.toString();
