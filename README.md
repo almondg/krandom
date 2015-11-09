@@ -1,4 +1,4 @@
-# krandom
+# KRandom
 Java Random Utils for Testing.
 
 # Usage
@@ -23,3 +23,9 @@ int[][] matrix = KRandom.next2DIntArray(n, m);
 <p><code>
 boolean[][] karnaughMap = KRandom.next2DBooleanArray(n, m);
 </code></p>
+
+# Print Utils
+## Import:
+<p><code>import org.kedos.PrintUtils;</code></p>
+or
+<p><code>import static org.kedos.PrintUtils.*;</code></p>
