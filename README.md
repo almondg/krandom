@@ -9,6 +9,10 @@ or
 
 ## Methods:
 <p><code>
+int even = KRandom.nextEvenInt();
+</code></p>
+
+<p><code>
 String babyTalk = KRandom.nextAlphabeticString(n);
 </code></p>
 
