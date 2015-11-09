@@ -11,6 +11,11 @@ or
 <p><code>
 String babyTalk = KRandom.nextAlphabeticString(n);
 </code></p>
+
 <p><code>
 int[][] matrix = KRandom.next2DIntArray(n, m);
+</code></p>
+
+<p><code>
+boolean[][] karnaughMap = KRandom.next2DBooleanArray(n, m);
 </code></p>
