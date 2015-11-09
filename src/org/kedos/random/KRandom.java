@@ -273,12 +273,14 @@ public class KRandom {
     /**
      * Generates random 2D @int array of size @rows*@cols
      *
+     * <pre>
      *   cols
      *   _ _ _ _
      * r|_|_|_|_|
      * o|_|_|_|_|
      * w|_|_|_|_|
      * s|_|_|_|_|
+     * </pre>
      *
      * @param rows number of rows.
      * @param cols number of cols.
@@ -297,12 +299,14 @@ public class KRandom {
     /**
      * Generates random 2D @long array of size @rows*@cols
      *
+     * <pre>
      *   cols
      *   _ _ _ _
      * r|_|_|_|_|
      * o|_|_|_|_|
      * w|_|_|_|_|
      * s|_|_|_|_|
+     * </pre>
      *
      * @param rows number of rows.
      * @param cols number of cols.
@@ -321,12 +325,14 @@ public class KRandom {
     /**
      * Generates random 2D @float array of size @rows*@cols
      *
+     * <pre>
      *   cols
      *   _ _ _ _
      * r|_|_|_|_|
      * o|_|_|_|_|
      * w|_|_|_|_|
      * s|_|_|_|_|
+     * </pre>
      *
      * @param rows number of rows.
      * @param cols number of cols.
@@ -345,12 +351,14 @@ public class KRandom {
     /**
      * Generates random 2D @double array of size @rows*@cols
      *
+     * <pre>
      *   cols
      *   _ _ _ _
      * r|_|_|_|_|
      * o|_|_|_|_|
      * w|_|_|_|_|
      * s|_|_|_|_|
+     * </pre>
      *
      * @param rows number of rows.
      * @param cols number of cols.
@@ -369,12 +377,14 @@ public class KRandom {
     /**
      * Generates random 2D @boolean array of size @rows*@cols
      *
+     *  <pre>
      *   cols
      *   _ _ _ _
      * r|_|_|_|_|
      * o|_|_|_|_|
      * w|_|_|_|_|
      * s|_|_|_|_|
+     * </pre>
      *
      * @param rows number of rows.
      * @param cols number of cols.
@@ -386,13 +396,14 @@ public class KRandom {
 
     /**
      * Generates random 2D @boolean array of size @rows*@cols
-     *
+     * <pre>
      *   cols
      *   _ _ _ _
      * r|_|_|_|_|
      * o|_|_|_|_|
      * w|_|_|_|_|
      * s|_|_|_|_|
+     * </pre>
      *
      * @param rows number of rows.
      * @param cols number of cols.
