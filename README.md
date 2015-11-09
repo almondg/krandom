@@ -29,3 +29,12 @@ boolean[][] karnaughMap = KRandom.next2DBooleanArray(n, m);
 <p><code>import org.kedos.PrintUtils;</code></p>
 or
 <p><code>import static org.kedos.PrintUtils.*;</code></p>
+
+## Methods:
+<p><code>
+PrintUtils.print2DArray(matrix);
+[8, 1, 8, 9]
+[0, 9, 6, 2]
+[5, 7, 0, 4]
+[8, 3, 9, 6]
+</code></p>
