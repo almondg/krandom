@@ -33,8 +33,20 @@ or
 ## Methods:
 <p><code>
 PrintUtils.print2DArray(matrix);
+<pre>
 [8, 1, 8, 9]
 [0, 9, 6, 2]
 [5, 7, 0, 4]
 [8, 3, 9, 6]
+</pre>
+</code></p>
+
+<p><code>
+PrintUtils.print2DArray(karnaughMap, true);
+<pre>
+[1, 1, 0, 1]
+[1, 1, 0, 1]
+[0, 1, 0, 1]
+[1, 1, 1, 1]
+</pre>
 </code></p>
