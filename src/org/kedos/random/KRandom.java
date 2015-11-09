@@ -182,7 +182,7 @@ public class KRandom {
         int[] randomArray = new int[size];
 
         for (int i = 0; i < randomArray.length; i++) {
-            randomArray[i] = r.nextInt();
+            randomArray[i] = r.nextInt(10);
         }
 
         return randomArray;
