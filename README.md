@@ -1,6 +1,10 @@
 # KRandom
 Java Random Utils for Testing.
 
+# Download
+For now you can download the latest version from here:
+https://github.com/almondg/krandom/blob/master/build/krandom.jar
+
 # Usage
 ## Import:
 <p><code>import org.kedos.KRandom;</code></p>
