@@ -6,6 +6,14 @@ For now you can download the latest version from here:
 https://raw.github.com/almondg/krandom/blob/master/build/krandom.jar
 
 # Usage
+## Add to build path:
+After downloading the jar file from the link above, follow this instructions:
+### For Eclipse:
+http://www.wikihow.com/Add-JARs-to-Project-Build-Paths-in-Eclipse-(Java)
+
+### For IntelliJ:
+https://www.jetbrains.com/idea/help/configuring-module-dependencies-and-libraries.html
+
 ## Import:
 <p><code>import org.kedos.KRandom;</code></p>
 or
